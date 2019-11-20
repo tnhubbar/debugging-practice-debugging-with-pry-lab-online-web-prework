@@ -20,10 +20,10 @@ class Person
   end
   def ballin_candy_lover?
     if likes_candy?
-      puts "Aw sweet, this cat loves them some candy!"
+      "Aw sweet, this cat loves them some candy!"
     else
       10.times do
-        puts "not a ballin candy lover"
+        "not a ballin candy lover"
     end
   end
 end
