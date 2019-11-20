@@ -16,10 +16,10 @@ class Person
   end
 
   def likes_candy?
-    true
+    candy_lover
   end
   def ballin_candy_lover?
-    if likes_candy? === true
+    if likes_candy?
       puts "Aw sweet, this cat loves them some candy!"
     else
       10.times do
@@ -27,3 +27,4 @@ class Person
     end
   end
 end
+end 
